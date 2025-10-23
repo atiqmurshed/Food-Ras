@@ -6,9 +6,13 @@ import Featured from "../Featureds/Featured";
 import Fitimage from "../Fitimage/Fitimage";
 import PopularMenu from "../PopularMenu/PopularMenu";
 import Testimonials from "../Testimonials/Testimonials";
+
 // import { Helmet } from 'react-helmet-async';
+
 const Home = () => {
+
     return (
+
         <div>
             {/* <Helmet>
                <title>Bistro Boss | Home </title>
@@ -22,7 +26,9 @@ const Home = () => {
             <Featured></Featured>
             <Testimonials></Testimonials>
         </div>
+
     );
+    
 };
 
 export default Home;
